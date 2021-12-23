@@ -15,12 +15,12 @@ setup(
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://hutsons-hacks.info/',
     author='Gary Hutson',
-    author_email='',
+    author_email='hutsons-hacks@outlook.com',
     license='MIT',
     classifiers=classifiers,
-    keywords='pytorch',
+    keywords='pytorch utilities python',
     packages=find_packages(),
-    install_requires=['onnx', 'onnx_tf']
+    install_requires=['onnx', 'onnx-tf']
 )
 
 
