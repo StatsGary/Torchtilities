@@ -1,6 +1,8 @@
+import onnx
+from onnx_tf.backend import prepare
+
 def convert_pytorch_to_tf(model_path, output_path='./tf_conv.pb'):
-    import onnx
-    from onnx_tf.backend import prepare
+
     """Converts model from PyTorch to tensorflow
 
     Parameters
